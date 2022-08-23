@@ -1,0 +1,58 @@
+body {
+    background-image: url(https://lh3.googleusercontent.com/nuqWKTBLetJDrCA0Bd2OJw2nOgqs_vS-vzNVK6UN4THnioJLGe_Dzh2060rj0v07LH2EpnlsfQV1wuAEHu2H9_-3=w640-h400-e365-rj-sc0x00ffffff);
+    
+  }
+  
+  h1, p {
+    text-align: center;
+    color: white;
+  }
+  
+  .thanks {
+    font-style: italic;
+    font-size: 19;
+  }
+  
+  .form {
+    width: 100%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px; 
+  }
+  
+  fieldset {
+    border: none;
+    color: white;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0 1.5rem;
+  }
+  
+  input, select, textarea {
+    margin: 10px 0 0 0;
+      width: 100%;
+    min-height: 2em;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  .options {
+    margin: 0 0 0 0;
+  }
+  
+  input[type="submit"] {
+    background-color: MediumSeaGreen;
+    color: white;
+    font-size: 1em;
+    border-color: black;
+    height: 3.5em;
+    margin: 1em auto;
+  }

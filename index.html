@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p class="thanks" id="description">Thank you for taking the time to help us improve the platform</p>
+    <div class="form">
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name: <input type="text" id="name" placeholder="Enter your name" required /></label>
+        <label id="email-label">Email: <input type="email" id="email" placeholder="Enter your Email" required /></label>
+        <label id="number-label">Age: <input type="number" id="number" min="10" max="99" placeholder="Age" /></label>
+        <label>Which option best describes your current role? <select id="dropdown">
+          <option value="">(Select current role)</option>
+          <option value="1">Student</option>
+          <option value="2">Full Time Job</option> 
+          <option value="3">Full Time Learner</option> 
+          <option value="4">Prefer not to say</option> 
+          <option value="5">Other</option> 
+          </select>
+          </label>
+      </fieldset>
+      <fieldset>
+        <legend>Would you recommend freeCodeCamp to a friend?</legend>
+        <label class="options"><input class="inline" id="definitely" type="radio" name="rec-option" value="definitely" checked>Definitely</label>
+        <label class="options"><input class="inline" id="maybe" type="radio" name="rec-option" value="maybe">Maybe</label>
+        <label class="options"><input class="inline" id="not-sure" type="radio" name="rec-option" value="not-sure">Not sure</label>
+        </fieldset>
+        <fieldset>
+        <label>What is your favorite feature of freeCodeCamp? <select id="dropdown2">
+          <option value="">Select an option</option>
+          <option value="1">Challenges</option>
+          <option value="2">Projects</option> 
+          <option value="3">Community</option> 
+          <option value="4">Open Source</option>  
+          </select>
+          </label>
+          </fieldset>
+          <fieldset>
+          <legend>What would you like to see improved? (Check all that apply)</legend>
+          <label class="options"><input class="inline" id="front-end" type="checkbox" name="feature" value="front-end">Front-end Projects</label>
+          <label class="options"><input class="inline" id="back-end" type="checkbox" name="feature" value="back-end">Back-end Projects</label>
+          <label class="options"><input class="inline" id="data" type="checkbox" name="feature" value="data">Data Visualization</label>
+          <label class="options"><input class="inline" id="challenges" type="checkbox" name="feature" value="challenges">Challenges</label>
+          <label class="options"><input class="inline" id="open-source" type="checkbox" name="feature" value="open-source">Open Source Community</label>
+          <label class="options"><input class="inline" id="gitter" type="checkbox" name="feature" value="gitter">Gitter Help Rooms</label>
+          <label class="options"><input class="inline" id="videos" type="checkbox" name="feature" value="videos">Videos</label>
+          <label class="options"><input class="inline" id="city" type="checkbox" name="feature" value="city">City Meetups</label>
+          <label class="options"><input class="inline" id="wiki" type="checkbox" name="feature" value="wiki">Wiki</label>
+          <label class="options"><input class="inline" id="forum" type="checkbox" name="feature" value="forum">Forum</label>
+          <label class="options"><input class="inline" id="add-courses" type="checkbox" name="feature" value="add-courses">Additional Courses</label>
+          </fieldset>
+          <fieldset>
+          <label>Any comments or suggestions?
+            <textarea name="comments" rows="7" cols="30" placeholder="Enter your comment here..."></textarea>
+            </label> 
+            <input id="submit" type="submit" value="Submit" />
+            </fieldset>
+    </form>
+    </div>
+  </body>
+</html>
